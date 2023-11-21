@@ -1,0 +1,18 @@
+sudo su -          (to go to root user)
+yum update -y      (to update the system)
+yum install -y httpd  (to install httpd)
+systemctl status httpd  (status for httpd)
+
+mkdir temp (to make dirctory)
+cd temp     (to go inside temp )
+
+wget <link for website of github>
+unzip <the downloaded file>
+cd main (to go insde the downloaded folder)
+ls -lrt   (view as the list) 
+
+mv * /var/www/html   (to move everything to the var)
+cd  /var/www/html    (to go insde the html folder)
+systemctl enable httpd   ( to enable httpd )
+systemctl starr httpd    (to start the server)
+
